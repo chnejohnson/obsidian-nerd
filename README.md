@@ -1,10 +1,8 @@
 
 # Obsidian Nerd
 
-- [Obsidian Nord](https://github.com/insanum/obsidian_nord)
-- [Nord](https://github.com/arcticicestudio/nord) 
+A theme for Obsidian based on following themes
 
-![](dark.png)
-
-![](light.png)
-
+- [Obsidian Atom](https://github.com/kognise/obsidian-atom)
+- [Obsidian + Nord](https://github.com/insanum/obsidian_nord)
+- [Nord](https://github.com/arcticicestudio/nord)
