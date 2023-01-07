@@ -1,7 +1,8 @@
 
-# Obsidian + Nord
+# Obsidian Nerd
 
-This is a [Nord](https://github.com/arcticicestudio/nord) theme for [Obsidian](https://obsidian.md).
+- [Obsidian Nord](https://github.com/insanum/obsidian_nord)
+- [Nord](https://github.com/arcticicestudio/nord) 
 
 ![](dark.png)
 
