@@ -61,10 +61,40 @@
 	--h4-color: var(--light0);
 	--h5-color: var(--light0);
 	--h6-color: var(--light0);
+
+	/* heading line height */
+	--h1-line-height: 70px;
+	--h2-line-height: 70px;
+	--h3-line-height: 70px;
+	--h4-line-height: 70px;
+	--h5-line-height: 70px;
+	--h6-line-height: 70px;
+	--h3-line-height: 70px;
 }
 
 body {
+	--font-monospace: 'Fira Code', 'Source Code Pro', monospace;
 	-webkit-font-smoothing: auto;
+
+	/* code block background color */
+	--code-background: #1d1d1d;
+
+	/* list line height */
+	--list-spacing: 0.3em;
+
+	/* bullet color */
+	--list-marker-color: var(--yellow);
+	--list-marker-color-hover: var(--yellow);
+}
+
+/* list
+	- 可同步調整 bullet, number, checkbox 的縮進
+	- 不能使用 margin-right，會導致游標位置錯亂，還會導致莫名多空一行
+	- 仍有問題，游標位置會無法標明
+*/
+span.cm-formatting-list {
+	position: relative;
+	left: -10px;
 }
 
 .titlebar {
@@ -206,10 +236,6 @@ body:not(.is-grabbing) .nav-folder .nav-folder-title:hover:not(.is-active) {
 blockquote {
 	margin: 20px 0;
 	border-radius: 4px !important;
-}
-
-body {
-	--font-monospace: 'Fira Code', 'Source Code Pro', monospace;
 }
 
 mjx-container[jax='CHTML'] {
