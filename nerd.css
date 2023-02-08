@@ -94,7 +94,7 @@ body {
 	--code-background: #1d1d1d;
 
 	/* list line height */
-	--list-spacing: 0.3em;
+	--list-spacing: 0.25em;
 
 	/* bullet color */
 	--list-marker-color: var(--yellow);
@@ -106,10 +106,10 @@ body {
 	- 不能使用 margin-right，會導致游標位置錯亂，還會導致莫名多空一行
 	- 仍有問題，游標位置會無法標明
 */
-span.cm-formatting-list {
+/* span.cm-formatting-list {
 	position: relative;
 	left: -10px;
-}
+} */
 
 .titlebar {
 	background-color: var(--background-secondary-alt);
